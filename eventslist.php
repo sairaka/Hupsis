@@ -88,6 +88,7 @@ $result = pg_query($db,"SELECT * FROM eventinformation ORDER BY starts");
             <br/><br/><hr class="new1">
             <br/><br/>
             <a class="btn btn-full database-button" href="event_insert.php">Add new event</a>
+            <a class="btn btn-full database-button" href="hupsis.html">Return to main page</a>
         </section>    
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
