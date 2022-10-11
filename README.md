@@ -3,4 +3,5 @@ Practice work from Opiframe's Data analytics and knowledge-based management-trai
 
 In this practice work I have used html, css, php and postgresql. 
 
-For now here is only files for my simpler practice database, files will be modified and added to the practice work and it's database.
+I know code could be cleaner, shorter and nore beautiful, but I am getting there, as soon as I do more of coding... 
+:-)
