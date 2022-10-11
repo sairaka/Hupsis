@@ -202,7 +202,8 @@ $row= pg_fetch_assoc($result);
                     <input type="text" name="anythingelse" value="<?php echo $row['anythingelse']; ?>">
                     <br>
                     <br>
-                    <input type="submit" name="submit" value="Submit" class="button"> 
+                    <input type="submit" name="submit" value="Submit" class="button">
+		    <a class="btn btn-full database-button" href="eventslist.php">Cancel</a>
                     
                     
                     
