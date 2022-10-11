@@ -3,5 +3,5 @@ Practice work from Opiframe's Data analytics and knowledge-based management-trai
 
 In this practice work I have used html, css, php and postgresql. 
 
-I know code could be cleaner, shorter and nore beautiful, but I am getting there, as soon as I do more of coding... 
+I know code could be cleaner, shorter and more beautiful, but I am getting there, as soon as I do more of coding... 
 :-)
