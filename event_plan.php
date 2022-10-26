@@ -1,16 +1,5 @@
 <?php
 include_once 'database.php';
-if(count($_POST)>0) {
-	
-	$query = "UPDATE eventinformation AS e SET eventname='" . $_POST['eventname'] . "', street='" . $_POST['street'] . "' ,city='" . $_POST['city'] . "',anythingelse='" . $_POST['anythingelse'] . "', nature='" . $_POST['nature'] . "', position='" . $_POST['position'] . "', otherproviders='" . $_POST['otherproviders'] . "' WHERE e.id='" . $_GET['id'] . "'";
-	if($result = pg_query($query)){
-		echo "Record Updated Successfully.";
-	}
-	else{
-		echo "Error.";
-	}
-	
-}
 
 $hourdiff = round((strtotime($row['ends']) - strtotime($row['starts']))/3600, 1);
 
